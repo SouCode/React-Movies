@@ -1,0 +1,134 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  color: #00b3b3;
+  text-shadow: 0 0 10px #00b3b3, 0 0 20px #00b3b3, 0 0 30px #00b3b3, 0 0 40px #00b3b3, 0 0 70px #00b3b3, 0 0 80px #00b3b3, 0 0 100px #00b3b3, 0 0 150px #00b3b3;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+
+/* Style the buttons with a neon glow effect */
+button {
+  background-color: #00b3b3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px #00b3b3, 0 0 20px #00b3b3, 0 0 30px #00b3b3, 0 0 40px #00b3b3, 0 0 70px #00b3b3, 0 0 80px #00b3b3, 0 0 100px #00b3b3, 0 0 150px #00b3b3;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* Define the keyframes for the neon glow effect */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #00b3b3, 0 0 20px #00b3b3, 0 0 30px #00b3b3, 0 0 40px #00b3b3, 0 0 70px #00b3b3, 0 0 80px #00b3b3, 0 0 100px #00b3b3, 0 0 150px #00b3b3;
+  }
+  to {
+    box-shadow: 0 0 20px #00b3b3, 0 0 40px #00b3b3, 0 0 60px #00b3b3, 0 0 80px #00b3b3, 0 0 130px #00b3b3, 0 0 140px #00b3b3, 0 0 160px #00b3b3, 0 0 200px #00b3b3;
+  }
+}
+
+
+.card {
+  background-color: #222;
+  border: none;
+  height: 550px;
+  color: #fff;
+}
+
+/* Style the movie card images with a fixed height and object-fit: cover to ensure they fill the entire container */
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.card-text {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.card-text {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+/* Add a hover effect to the movie cards with a darker neon glow and a translateY transform */
+.card:hover {
+  box-shadow: 0 0 10px #00b3b3, 0 0 20px #00b3b3, 0 0 30px #00b3b3, 0 0 40px #00b3b3, 0 0 70px #00b3b3, 0 0 80px #00b3b3, 0 0 100px #00b3b3, 0 0 150px #00b3b3;
+  transform: translateY(-10px);
+}
+
+/* Style the individual movie divs with centered text and a margin-bottom */
+.Movie {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Add a margin-top to the container */
+.container {
+  margin-top: 50px;
+}
+
+.navbar {
+  background-color: #222;
+}
+
+
+/* Style the navbar brand with a neon glow effect */
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 0 0 10px #00b3b3, 0 0 20px #00b3b3, 0 0 30px #00b3b3, 0 0 40px #00b3b3, 0 0 70px #00b3b3, 0 0 80px #00b3b3, 0 0 100px #00b3b3, 0 0 150px #00b3b3;
+}
+
+
+/* Style the navbar links with a neon glow effect */
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+/* Style the footer with a dark background color, white text, and a margin-top */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style the text in the footer with no margin-bottom */
+.footer p {
+  margin-bottom: 0;
+}
+
+
+/* Set a media query for smaller screens to adjust font sizes */
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+}
